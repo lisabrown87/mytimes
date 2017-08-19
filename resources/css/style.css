@@ -2,4 +2,42 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+
+}
+
+.logo {
+display: inline-flex;
+padding-left: 30px;
+align-items: center;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  font-size: 14px;
+  padding-left: 10px;
+  display: inline;
+}
+
+
+nav {
+display: inline;
+margin-right: 10px;
+}
+
+nav a {
+  color: black;
+  margin: 30px;
+}
+
+.body {
+  display: flex;
+  min-height: 100vh; /* set min container height to viewport height */
+  border: 1px solid black;
+  padding-top: 120px;
 }
