@@ -35,9 +35,45 @@ nav a {
   margin: 30px;
 }
 
-.body {
+
+/*body starts here*/
+
+.content {
   display: flex;
-  min-height: 100vh; /* set min container height to viewport height */
   border: 1px solid black;
-  padding-top: 120px;
+  width: 1232px;
+  margin-top: 40px;
+}
+
+.column-large {
+  width: 630px;
+  display: inline-flex;
+    flex-direction: column;
+    margin-right: 32px;
+  border: 1px solid black;
+}
+
+.stories {
+  border: 1px solid black;
+  
+}
+
+.column-medium {
+  display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column-small {
+  display: inline-flex;
+    flex-direction: column;
+    margin-right: 32px;
+  width: 240px;
+  border: 1px solid black;
+}
+
+.image-content {
+  border: 1px solid black;
 }
